@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-family: Arial, Helvetica, sans-serif}
+-->
+</style>
+</head>
+
+<body>
+<p align="center"><img src="imagenes/1-e1560436184753.png" width="433" height="319" /></p>
+<p>&nbsp;</p>
+<p class="style1">Antes de comenzar debemos conocer la familia de microcontroladores de Arduino, la cual es bastante amplia y est&aacute; compuesta por diferentes modelos y variaciones. En esta ocasi&oacute;n, describiremos las partes de <strong>Arduino UNO</strong>, que es bastante similar a otros modelos, para que puedas hacerte una idea de la estructura de la placa electr&oacute;nica (hardware).</p>
+<h3 class="style1"><strong>(1 y 2) Alimentaci&oacute;n USB/5VDC</strong></h3>
+<p class="style1">Arduino UNO puede ser alimentado desde un cable USB tipo B o mini   conectado a tu ordenador, o desde una fuente de alimentaci&oacute;n entre 6V y   18V. En la imagen de arriba, la conexi&oacute;n USB est&aacute; etiquetada (1) y el   conector de la fuente de alimentaci&oacute;n (2).</p>
+<p class="style1">Ademas, la conexi&oacute;n USB sirve para cargar c&oacute;digo en la placa de   Arduino desde donde se pueden enviar datos de la programaci&oacute;n e   instrucciones a la placa.</p>
+<h3 class="style1"><strong>(3) Regulador de voltaje</strong></h3>
+<p class="style1">Este componente controla la cantidad de voltaje que entra en la placa   de Arduino, evitando que un voltaje excesivo da&ntilde;e el circuito.</p>
+<h3 class="style1"><strong>(4)&nbsp;Conexiones&nbsp;</strong></h3>
+<p class="style1">Los pines de Arduino se utilizan para conectar los cables necesarios   para construir un circuito. Este tipo de conexiones tiene varios pines,   cada uno de los cuales est&aacute; impreso en la placa y se utilizan para   diferentes funciones:</p>
+<ul class="style1">
+  <li><strong>Reset:</strong> Permite el reseteo del micro controlador.</li>
+  <li><strong>5V y 3.3V:</strong> la clavija de 5V suministra 5 voltios de   energ&iacute;a, y la clavija de 3.3V suministra 3.3 voltios de energ&iacute;a. La   mayor&iacute;a de los componentes simples usados con el Arduino funcionan bien   con 5 o 3.3 voltios.</li>
+  <li><strong>GND:</strong> Hay varios pines GND en Arduino, se usan para conectar a tierra el circuito.</li>
+  <li><strong>VIN:</strong> Se usa para conectar la alimentaci&oacute;n de la placa con una fuente externa de entre 6 y 12VDC.</li>
+</ul>
+<h3 class="style1"><strong>(5) Puertos de entrada Anal&oacute;gicos</strong></h3>
+<p class="style1">Estos pines bajo la etiqueta &lsquo;Analog In&rsquo; (A0 a A5 en la UNO) pueden   leer la se&ntilde;al de un sensor anal&oacute;gico y convertirla en un valor digital   que podemos interpretar.</p>
+<h3 class="style1"><strong>(6) Micro-controlador Atmega 328</strong></h3>
+<p class="style1">Es el circuito integrado que act&uacute;a como cerebro o procesador de la placa de Arduino, donde se implementa la programaci&oacute;n.</p>
+<h3 class="style1"><strong>(7) Entrada ICSP (In Chip Serial Programmer)&nbsp;</strong></h3>
+<p class="style1">Permite grabar programas en el circuito directamente desde el ordenador sin necesidad de utilizar el puerto USB.</p>
+<h3 class="style1"><strong>(8) Indicador LED de alimentaci&oacute;n</strong></h3>
+<p class="style1">Este LED se enciende para indicar que el microprocesador est&aacute; activo.</p>
+<h3 class="style1"><strong>(9) LED TX RX&nbsp;</strong></h3>
+<p class="style1"><strong>TX</strong> es la abreviatura de transmisi&oacute;n de datos y <strong>RX</strong> es la abreviatura de recepci&oacute;n de datos. Estas marcas comunes aparecen   con regularidad en la electr&oacute;nica para indicar los pines responsables de   la comunicaci&oacute;n serie. Estos LED se activan visualmente cuando la placa   recibe o transmite datos.</p>
+<h3 class="style1"><strong>(10) Puertos Digitales</strong></h3>
+<p class="style1">Estos pines se pueden utilizar tanto para la entrada digital (como   para detectar la pulsaci&oacute;n de un bot&oacute;n) como para la salida digital   (como para alimentar un LED).</p>
+<h3 class="style1"><strong>(11) Puerto de conexiones</strong></h3>
+<ul class="style1">
+  <li>5 entradas o salidas auxiliares (de la 8 a la 12).</li>
+  <li>3 salidas 9, 10 y 11 que permiten la modulaci&oacute;n por ancho o de pulso.</li>
+  <li>Salida 13 que sirve para conectar un led directamente a tierra.</li>
+  <li>Salida a tierra GND.</li>
+  <li>Pin AREF que se utiliza para fijar una tensi&oacute;n de referencia externa   (entre 0 y 5 voltios) como l&iacute;mite superior de las clavijas de entrada   anal&oacute;gica.</li>
+</ul>
+<h3 class="style1"><strong>(12) Chip de Arduino&nbsp;</strong></h3>
+<p class="style1">Permite identificar un dispositivo USB por el ordenador, es como su tarjeta de identificaci&oacute;n o D.N.I. personal</p>
+<h3 class="style1"><strong>(13) Bot&oacute;n de RESET&nbsp;</strong></h3>
+<p class="style1">Al presionarlo conectar&aacute; temporalmente el pin de reset a tierra y   reiniciar&aacute; cualquier c&oacute;digo que est&eacute; cargado en el micro-controlador de   Arduino.</p>
+</body>
+</html>
